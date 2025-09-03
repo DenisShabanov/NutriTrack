@@ -21,7 +21,9 @@ struct SeachFoodView: View {
             //foreground
             VStack {
                 SearchBarView(searchText: $textField)
-                
+                ScrollView {
+                    
+                }
             }
         }
     }
