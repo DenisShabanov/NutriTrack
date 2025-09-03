@@ -6,6 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		14E730AE2E630B1300D71A5A /* AddAndInfoFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7308B2E630B1300D71A5A /* AddAndInfoFoodView.swift */; };
+		14E730AF2E630B1300D71A5A /* NutritionFactsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7308C2E630B1300D71A5A /* NutritionFactsCard.swift */; };
+		14E730B02E630B1300D71A5A /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7308F2E630B1300D71A5A /* BackgroundGradient.swift */; };
+		14E730B12E630B1300D71A5A /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730912E630B1300D71A5A /* CircleButton.swift */; };
+		14E730B22E630B1300D71A5A /* BottomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730932E630B1300D71A5A /* BottomNavigation.swift */; };
+		14E730B32E630B1300D71A5A /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730952E630B1300D71A5A /* CardModifier.swift */; };
+		14E730B42E630B1300D71A5A /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730972E630B1300D71A5A /* ProgressBar.swift */; };
+		14E730B52E630B1300D71A5A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7309A2E630B1300D71A5A /* HomeView.swift */; };
+		14E730B62E630B1300D71A5A /* MacronutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7309D2E630B1300D71A5A /* MacronutrientsView.swift */; };
+		14E730B72E630B1300D71A5A /* MealRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7309E2E630B1300D71A5A /* MealRowView.swift */; };
+		14E730B82E630B1300D71A5A /* NutritionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7309F2E630B1300D71A5A /* NutritionInfoView.swift */; };
+		14E730B92E630B1300D71A5A /* FoodRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730A22E630B1300D71A5A /* FoodRowView.swift */; };
+		14E730BC2E630B1300D71A5A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730A82E630B1300D71A5A /* Color.swift */; };
+		14E730BE2E630B1300D71A5A /* NutriTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730AC2E630B1300D71A5A /* NutriTrackApp.swift */; };
+		14E730BF2E630B1300D71A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E730AB2E630B1300D71A5A /* Assets.xcassets */; };
+		14E730C12E630B5200D71A5A /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730C02E630B5200D71A5A /* UIApplication.swift */; };
+		14E730C42E630B7B00D71A5A /* SeachFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730C22E630B7B00D71A5A /* SeachFoodView.swift */; };
+		14E730C52E630B7B00D71A5A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E730C32E630B7B00D71A5A /* SearchBarView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		14F40A282E5C7F9600B0718B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,17 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14E7308B2E630B1300D71A5A /* AddAndInfoFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAndInfoFoodView.swift; sourceTree = "<group>"; };
+		14E7308C2E630B1300D71A5A /* NutritionFactsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionFactsCard.swift; sourceTree = "<group>"; };
+		14E7308F2E630B1300D71A5A /* BackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradient.swift; sourceTree = "<group>"; };
+		14E730912E630B1300D71A5A /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		14E730932E630B1300D71A5A /* BottomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigation.swift; sourceTree = "<group>"; };
+		14E730952E630B1300D71A5A /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		14E730972E630B1300D71A5A /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		14E7309A2E630B1300D71A5A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		14E7309D2E630B1300D71A5A /* MacronutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacronutrientsView.swift; sourceTree = "<group>"; };
+		14E7309E2E630B1300D71A5A /* MealRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRowView.swift; sourceTree = "<group>"; };
+		14E7309F2E630B1300D71A5A /* NutritionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionInfoView.swift; sourceTree = "<group>"; };
+		14E730A22E630B1300D71A5A /* FoodRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRowView.swift; sourceTree = "<group>"; };
+		14E730A82E630B1300D71A5A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		14E730AB2E630B1300D71A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14E730AC2E630B1300D71A5A /* NutriTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriTrackApp.swift; sourceTree = "<group>"; };
+		14E730C02E630B5200D71A5A /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		14E730C22E630B7B00D71A5A /* SeachFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachFoodView.swift; sourceTree = "<group>"; };
+		14E730C32E630B7B00D71A5A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		14F40A1A2E5C7F9300B0718B /* NutriTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F40A272E5C7F9600B0718B /* NutriTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F40A312E5C7F9600B0718B /* NutriTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		14F40A1C2E5C7F9300B0718B /* NutriTrack */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NutriTrack;
-			sourceTree = "<group>";
-		};
 		14F40A2A2E5C7F9600B0718B /* NutriTrackTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NutriTrackTests;
@@ -72,10 +106,171 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14E7308D2E630B1300D71A5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14E7308B2E630B1300D71A5A /* AddAndInfoFoodView.swift */,
+				14E7308C2E630B1300D71A5A /* NutritionFactsCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14E7308E2E630B1300D71A5A /* AddAndInfoFoodView */ = {
+			isa = PBXGroup;
+			children = (
+				14E7308D2E630B1300D71A5A /* Views */,
+			);
+			path = AddAndInfoFoodView;
+			sourceTree = "<group>";
+		};
+		14E730902E630B1300D71A5A /* BackgroundGradient */ = {
+			isa = PBXGroup;
+			children = (
+				14E7308F2E630B1300D71A5A /* BackgroundGradient.swift */,
+			);
+			path = BackgroundGradient;
+			sourceTree = "<group>";
+		};
+		14E730922E630B1300D71A5A /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				14E730912E630B1300D71A5A /* CircleButton.swift */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		14E730942E630B1300D71A5A /* CustomBottomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				14E730932E630B1300D71A5A /* BottomNavigation.swift */,
+			);
+			path = CustomBottomNavigation;
+			sourceTree = "<group>";
+		};
+		14E730962E630B1300D71A5A /* CustomCardModifier */ = {
+			isa = PBXGroup;
+			children = (
+				14E730952E630B1300D71A5A /* CardModifier.swift */,
+			);
+			path = CustomCardModifier;
+			sourceTree = "<group>";
+		};
+		14E730982E630B1300D71A5A /* CustomProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				14E730972E630B1300D71A5A /* ProgressBar.swift */,
+			);
+			path = CustomProgressBar;
+			sourceTree = "<group>";
+		};
+		14E730992E630B1300D71A5A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				14E730902E630B1300D71A5A /* BackgroundGradient */,
+				14E730922E630B1300D71A5A /* CircleButton */,
+				14E730942E630B1300D71A5A /* CustomBottomNavigation */,
+				14E730962E630B1300D71A5A /* CustomCardModifier */,
+				14E730982E630B1300D71A5A /* CustomProgressBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		14E7309B2E630B1300D71A5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14E7309A2E630B1300D71A5A /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14E7309C2E630B1300D71A5A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				14E7309B2E630B1300D71A5A /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		14E730A02E630B1300D71A5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14E7309D2E630B1300D71A5A /* MacronutrientsView.swift */,
+				14E7309E2E630B1300D71A5A /* MealRowView.swift */,
+				14E7309F2E630B1300D71A5A /* NutritionInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14E730A12E630B1300D71A5A /* NutritionInfo */ = {
+			isa = PBXGroup;
+			children = (
+				14E730A02E630B1300D71A5A /* Views */,
+			);
+			path = NutritionInfo;
+			sourceTree = "<group>";
+		};
+		14E730A52E630B1300D71A5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14E730C22E630B7B00D71A5A /* SeachFoodView.swift */,
+				14E730C32E630B7B00D71A5A /* SearchBarView.swift */,
+				14E730A22E630B1300D71A5A /* FoodRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14E730A62E630B1300D71A5A /* SearchFood */ = {
+			isa = PBXGroup;
+			children = (
+				14E730A52E630B1300D71A5A /* Views */,
+			);
+			path = SearchFood;
+			sourceTree = "<group>";
+		};
+		14E730A72E630B1300D71A5A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				14E730992E630B1300D71A5A /* Components */,
+				14E7308E2E630B1300D71A5A /* AddAndInfoFoodView */,
+				14E7309C2E630B1300D71A5A /* Home */,
+				14E730A12E630B1300D71A5A /* NutritionInfo */,
+				14E730A62E630B1300D71A5A /* SearchFood */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		14E730AA2E630B1300D71A5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				14E730C02E630B5200D71A5A /* UIApplication.swift */,
+				14E730A82E630B1300D71A5A /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		14E730AD2E630B1300D71A5A /* NutriTrack */ = {
+			isa = PBXGroup;
+			children = (
+				14E730A72E630B1300D71A5A /* Core */,
+				14E730AA2E630B1300D71A5A /* Extensions */,
+				14E730C92E630D3000D71A5A /* Models */,
+				14E730AB2E630B1300D71A5A /* Assets.xcassets */,
+				14E730AC2E630B1300D71A5A /* NutriTrackApp.swift */,
+			);
+			path = NutriTrack;
+			sourceTree = "<group>";
+		};
+		14E730C92E630D3000D71A5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		14F40A112E5C7F9300B0718B = {
 			isa = PBXGroup;
 			children = (
-				14F40A1C2E5C7F9300B0718B /* NutriTrack */,
+				14E730AD2E630B1300D71A5A /* NutriTrack */,
 				14F40A2A2E5C7F9600B0718B /* NutriTrackTests */,
 				14F40A342E5C7F9600B0718B /* NutriTrackUITests */,
 				14F40A1B2E5C7F9300B0718B /* Products */,
@@ -106,9 +301,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				14F40A1C2E5C7F9300B0718B /* NutriTrack */,
 			);
 			name = NutriTrack;
 			packageProductDependencies = (
@@ -212,6 +404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E730BF2E630B1300D71A5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +429,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E730AE2E630B1300D71A5A /* AddAndInfoFoodView.swift in Sources */,
+				14E730AF2E630B1300D71A5A /* NutritionFactsCard.swift in Sources */,
+				14E730B02E630B1300D71A5A /* BackgroundGradient.swift in Sources */,
+				14E730B12E630B1300D71A5A /* CircleButton.swift in Sources */,
+				14E730B22E630B1300D71A5A /* BottomNavigation.swift in Sources */,
+				14E730B32E630B1300D71A5A /* CardModifier.swift in Sources */,
+				14E730B42E630B1300D71A5A /* ProgressBar.swift in Sources */,
+				14E730B52E630B1300D71A5A /* HomeView.swift in Sources */,
+				14E730B62E630B1300D71A5A /* MacronutrientsView.swift in Sources */,
+				14E730C42E630B7B00D71A5A /* SeachFoodView.swift in Sources */,
+				14E730C52E630B7B00D71A5A /* SearchBarView.swift in Sources */,
+				14E730B72E630B1300D71A5A /* MealRowView.swift in Sources */,
+				14E730B82E630B1300D71A5A /* NutritionInfoView.swift in Sources */,
+				14E730C12E630B5200D71A5A /* UIApplication.swift in Sources */,
+				14E730B92E630B1300D71A5A /* FoodRowView.swift in Sources */,
+				14E730BC2E630B1300D71A5A /* Color.swift in Sources */,
+				14E730BE2E630B1300D71A5A /* NutriTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
