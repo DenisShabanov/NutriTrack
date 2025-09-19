@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1444597F2E7D906100C1382B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1444597E2E7D906100C1382B /* Double.swift */; };
+		147FE4442E79852300815E92 /* FoodSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FE4432E79851100815E92 /* FoodSearchModel.swift */; };
+		147FE4472E799ADE00815E92 /* SearchFoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FE4462E799ACE00815E92 /* SearchFoodViewModel.swift */; };
+		147FE44A2E799C1700815E92 /* GetFoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FE4492E799C0A00815E92 /* GetFoodData.swift */; };
+		147FE44C2E799F4400815E92 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FE44B2E799F3D00815E92 /* DeveloperPreview.swift */; };
 		14E730AE2E630B1300D71A5A /* AddAndInfoFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7308B2E630B1300D71A5A /* AddAndInfoFoodView.swift */; };
 		14E730AF2E630B1300D71A5A /* NutritionFactsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7308C2E630B1300D71A5A /* NutritionFactsCard.swift */; };
 		14E730B02E630B1300D71A5A /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7308F2E630B1300D71A5A /* BackgroundGradient.swift */; };
@@ -45,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1444597E2E7D906100C1382B /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		147FE4432E79851100815E92 /* FoodSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchModel.swift; sourceTree = "<group>"; };
+		147FE4462E799ACE00815E92 /* SearchFoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFoodViewModel.swift; sourceTree = "<group>"; };
+		147FE4492E799C0A00815E92 /* GetFoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFoodData.swift; sourceTree = "<group>"; };
+		147FE44B2E799F3D00815E92 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
 		14E7308B2E630B1300D71A5A /* AddAndInfoFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAndInfoFoodView.swift; sourceTree = "<group>"; };
 		14E7308C2E630B1300D71A5A /* NutritionFactsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionFactsCard.swift; sourceTree = "<group>"; };
 		14E7308F2E630B1300D71A5A /* BackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradient.swift; sourceTree = "<group>"; };
@@ -106,6 +116,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		147FE4452E799A9A00815E92 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				147FE4462E799ACE00815E92 /* SearchFoodViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		147FE4482E799BD900815E92 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				147FE4492E799C0A00815E92 /* GetFoodData.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		14E7308D2E630B1300D71A5A /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +248,7 @@
 		14E730A62E630B1300D71A5A /* SearchFood */ = {
 			isa = PBXGroup;
 			children = (
+				147FE4452E799A9A00815E92 /* ViewModels */,
 				14E730A52E630B1300D71A5A /* Views */,
 			);
 			path = SearchFood;
@@ -242,8 +269,10 @@
 		14E730AA2E630B1300D71A5A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				147FE44B2E799F3D00815E92 /* DeveloperPreview.swift */,
 				14E730C02E630B5200D71A5A /* UIApplication.swift */,
 				14E730A82E630B1300D71A5A /* Color.swift */,
+				1444597E2E7D906100C1382B /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -253,6 +282,7 @@
 			children = (
 				14E730A72E630B1300D71A5A /* Core */,
 				14E730AA2E630B1300D71A5A /* Extensions */,
+				147FE4482E799BD900815E92 /* Services */,
 				14E730C92E630D3000D71A5A /* Models */,
 				14E730AB2E630B1300D71A5A /* Assets.xcassets */,
 				14E730AC2E630B1300D71A5A /* NutriTrackApp.swift */,
@@ -263,6 +293,7 @@
 		14E730C92E630D3000D71A5A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				147FE4432E79851100815E92 /* FoodSearchModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -363,7 +394,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					14F40A192E5C7F9300B0718B = {
 						CreatedOnToolsVersion = 16.3;
@@ -430,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14E730AE2E630B1300D71A5A /* AddAndInfoFoodView.swift in Sources */,
+				147FE4442E79852300815E92 /* FoodSearchModel.swift in Sources */,
 				14E730AF2E630B1300D71A5A /* NutritionFactsCard.swift in Sources */,
 				14E730B02E630B1300D71A5A /* BackgroundGradient.swift in Sources */,
 				14E730B12E630B1300D71A5A /* CircleButton.swift in Sources */,
@@ -438,14 +470,18 @@
 				14E730B42E630B1300D71A5A /* ProgressBar.swift in Sources */,
 				14E730B52E630B1300D71A5A /* HomeView.swift in Sources */,
 				14E730B62E630B1300D71A5A /* MacronutrientsView.swift in Sources */,
+				147FE44A2E799C1700815E92 /* GetFoodData.swift in Sources */,
 				14E730C42E630B7B00D71A5A /* SeachFoodView.swift in Sources */,
 				14E730C52E630B7B00D71A5A /* SearchBarView.swift in Sources */,
+				147FE4472E799ADE00815E92 /* SearchFoodViewModel.swift in Sources */,
 				14E730B72E630B1300D71A5A /* MealRowView.swift in Sources */,
 				14E730B82E630B1300D71A5A /* NutritionInfoView.swift in Sources */,
 				14E730C12E630B5200D71A5A /* UIApplication.swift in Sources */,
 				14E730B92E630B1300D71A5A /* FoodRowView.swift in Sources */,
 				14E730BC2E630B1300D71A5A /* Color.swift in Sources */,
 				14E730BE2E630B1300D71A5A /* NutriTrackApp.swift in Sources */,
+				1444597F2E7D906100C1382B /* Double.swift in Sources */,
+				147FE44C2E799F4400815E92 /* DeveloperPreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +574,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -595,6 +632,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};

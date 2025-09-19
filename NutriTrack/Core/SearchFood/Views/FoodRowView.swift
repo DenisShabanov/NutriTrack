@@ -9,22 +9,43 @@ import SwiftUI
 
 struct FoodRowView: View {
     
+    //MARK: Properties
+    var product: FoodItem
+    
     //MARK: - Body
     var body: some View {
+        productRow
+    }
+}
+
+#Preview {
+    FoodRowView(product: DeveloperPreview.instance.product)
+}
+
+
+//MARK: SubViews
+extension FoodRowView {
+    
+    private var productRow: some View {
         HStack {
-            Text("Tomato soup")
-                .font(.headline)
+            Text(product.productName ?? "")
+                .font(.callout)
+                .fontWeight(.semibold)
                 .foregroundStyle(Color.theme.accent)
+                .lineLimit(1)
             Spacer()
-            Text("220 ckal")
+            Text("\(product.nutriments.energyKcal100G?.asNutrinetsWith0Decimals() ?? "0") kcal")
+                .font(.callout)
+                .foregroundStyle(Color.theme.secondaryTextColor)
+            Image(systemName: "chevron.right")
                 .font(.callout)
                 .foregroundStyle(Color.theme.secondaryTextColor)
         }
         .padding()
         .cardModifier()
+        .onTapGesture {
+            
+        }
     }
-}
-
-#Preview {
-    FoodRowView()
+    
 }
