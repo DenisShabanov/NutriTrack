@@ -11,7 +11,7 @@ import Combine
 class GetFoodData {
     //MARK: Properties
     @Published var productInfo: [FoodItem] = []
-    var infoSubscription: AnyCancellable?
+    var foodInfoSubscription: AnyCancellable?
     
     
     //MARK: Get data func
@@ -20,27 +20,12 @@ class GetFoodData {
             let url = URL(string: "https://world.openfoodfacts.org/cgi/search.pl?search_terms=\(queryEncoded)&search_simple=1&action=process&json=1")
         else { return }
         
-        infoSubscription = URLSession.shared.dataTaskPublisher(for: url)
-            .subscribe(on: DispatchQueue.global(qos: .default))
-            .tryMap { (output) -> Data in
-                guard let responce = output.response as? HTTPURLResponse,
-                      responce.statusCode >= 200 && responce.statusCode < 300 else {
-                    throw URLError(.badServerResponse)
-                }
-                return output.data
-            }
-            .receive(on: DispatchQueue.main)
+        foodInfoSubscription = NetworkingManager.download(url: url)
             .decode(type: SearchProductData.self, decoder: JSONDecoder())
-            .sink { (completion) in
-                switch completion{
-                case .finished:
-                    break
-                case .failure(let error):
-                    print(error.localizedDescription)
-                }
-            } receiveValue: { [weak self] (returnedProduct) in
-                self?.productInfo = returnedProduct.products
-                self?.infoSubscription?.cancel()
-            }
+            .sink(receiveCompletion: NetworkingManager.handleCompletion,
+                  receiveValue: { [weak self] (returnedFoodInfo) in
+                self?.productInfo = returnedFoodInfo.products
+                self?.foodInfoSubscription?.cancel()
+            })
     }
 }
