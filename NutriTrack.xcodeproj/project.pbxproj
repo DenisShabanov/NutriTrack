@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1444597F2E7D906100C1382B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1444597E2E7D906100C1382B /* Double.swift */; };
+		145D35CB2E841F1E00D59F3D /* RecipePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D35CA2E841F1E00D59F3D /* RecipePageView.swift */; };
+		145D35CE2E841F9000D59F3D /* HeaderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D35CD2E841F9000D59F3D /* HeaderBar.swift */; };
+		145D35D02E842F6300D59F3D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D35CF2E842F5F00D59F3D /* Date.swift */; };
 		147FE4442E79852300815E92 /* FoodSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FE4432E79851100815E92 /* FoodSearchModel.swift */; };
 		147FE4472E799ADE00815E92 /* SearchFoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FE4462E799ACE00815E92 /* SearchFoodViewModel.swift */; };
 		147FE44A2E799C1700815E92 /* GetFoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FE4492E799C0A00815E92 /* GetFoodData.swift */; };
@@ -52,6 +55,9 @@
 
 /* Begin PBXFileReference section */
 		1444597E2E7D906100C1382B /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		145D35CA2E841F1E00D59F3D /* RecipePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePageView.swift; sourceTree = "<group>"; };
+		145D35CD2E841F9000D59F3D /* HeaderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBar.swift; sourceTree = "<group>"; };
+		145D35CF2E842F5F00D59F3D /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		147FE4432E79851100815E92 /* FoodSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchModel.swift; sourceTree = "<group>"; };
 		147FE4462E799ACE00815E92 /* SearchFoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFoodViewModel.swift; sourceTree = "<group>"; };
 		147FE4492E799C0A00815E92 /* GetFoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFoodData.swift; sourceTree = "<group>"; };
@@ -118,6 +124,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		145D35C82E841EB200D59F3D /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				145D35C92E841EFE00D59F3D /* Views */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		145D35C92E841EFE00D59F3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				145D35CA2E841F1E00D59F3D /* RecipePageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		145D35CC2E841F7300D59F3D /* CustomHeaderBar */ = {
+			isa = PBXGroup;
+			children = (
+				145D35CD2E841F9000D59F3D /* HeaderBar.swift */,
+			);
+			path = CustomHeaderBar;
+			sourceTree = "<group>";
+		};
 		147FE4452E799A9A00815E92 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +232,7 @@
 		14E730992E630B1300D71A5A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				145D35CC2E841F7300D59F3D /* CustomHeaderBar */,
 				14E730902E630B1300D71A5A /* BackgroundGradient */,
 				14E730922E630B1300D71A5A /* CircleButton */,
 				14E730942E630B1300D71A5A /* CustomBottomNavigation */,
@@ -272,6 +303,7 @@
 				14E7309C2E630B1300D71A5A /* Home */,
 				14E730A12E630B1300D71A5A /* NutritionInfo */,
 				14E730A62E630B1300D71A5A /* SearchFood */,
+				145D35C82E841EB200D59F3D /* Recipes */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -279,6 +311,7 @@
 		14E730AA2E630B1300D71A5A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				145D35CF2E842F5F00D59F3D /* Date.swift */,
 				147FE44B2E799F3D00815E92 /* DeveloperPreview.swift */,
 				14E730C02E630B5200D71A5A /* UIApplication.swift */,
 				14E730A82E630B1300D71A5A /* Color.swift */,
@@ -478,10 +511,13 @@
 				14E730B12E630B1300D71A5A /* CircleButton.swift in Sources */,
 				14E730B22E630B1300D71A5A /* BottomNavigation.swift in Sources */,
 				14E730B32E630B1300D71A5A /* CardModifier.swift in Sources */,
+				145D35CB2E841F1E00D59F3D /* RecipePageView.swift in Sources */,
 				14E730B42E630B1300D71A5A /* ProgressBar.swift in Sources */,
 				14E730B52E630B1300D71A5A /* HomeView.swift in Sources */,
 				14E730B62E630B1300D71A5A /* MacronutrientsView.swift in Sources */,
+				145D35D02E842F6300D59F3D /* Date.swift in Sources */,
 				147FE44A2E799C1700815E92 /* GetFoodData.swift in Sources */,
+				145D35CE2E841F9000D59F3D /* HeaderBar.swift in Sources */,
 				14E730C42E630B7B00D71A5A /* SeachFoodView.swift in Sources */,
 				14E730C52E630B7B00D71A5A /* SearchBarView.swift in Sources */,
 				147FE4472E799ADE00815E92 /* SearchFoodViewModel.swift in Sources */,
