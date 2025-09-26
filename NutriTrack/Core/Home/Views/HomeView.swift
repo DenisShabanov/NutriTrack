@@ -29,13 +29,7 @@ struct HomeView: View {
             ZStack {
                 BackgroundGradient()
                     .ignoresSafeArea()
-                VStack {
-                    HeaderBar(option: titleOptions, action: {})
-                    contentOption
-                    Spacer()
-                    BottomNavigation(selectTab: $selectTab)
-                }
-                .padding(.horizontal)
+                contentAndHeader
             }
         }
     }
@@ -72,6 +66,16 @@ extension HomeView {
             }
         }
         .animation(.easeInOut(duration: 0.3), value: selectTab)
+    }
+    
+    private var contentAndHeader: some View {
+        VStack {
+            HeaderBar(option: titleOptions, action: {})
+            contentOption
+            Spacer()
+            BottomNavigation(selectTab: $selectTab)
+        }
+        .padding(.horizontal)
     }
     
 }
